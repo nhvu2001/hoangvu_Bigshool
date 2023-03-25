@@ -7,13 +7,13 @@ namespace hoangvu.Migrations
     using System.Resources;
     
     [GeneratedCode("EntityFramework.Migrations", "6.4.4")]
-    public sealed partial class InitialModel : IMigrationMetadata
+    public sealed partial class Attendances : IMigrationMetadata
     {
-        private readonly ResourceManager Resources = new ResourceManager(typeof(InitialModel));
+        private readonly ResourceManager Resources = new ResourceManager(typeof(Attendances));
         
         string IMigrationMetadata.Id
         {
-            get { return "202303060910051_InitialModel"; }
+            get { return "202303200816102_Attendances"; }
         }
         
         string IMigrationMetadata.Source
